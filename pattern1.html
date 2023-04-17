@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+        <script>
+            for(row=0;row<6;row++){
+                for(col=0;col<6;col++){
+                    document.write('*');
+                }
+                document.write('<br>');
+            }
+            //-----------------------------------------
+            document.write('---------------------------------<br>')
+            for(row=0;row<3;row++){
+                for(col=0;col<4;col++){
+                    if(row==0 || col==0 || col==3 || row==2){
+                        document.write('*');
+                    }
+                    else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                }
+                document.write('<br>');
+            }
+
+            
+        </script>
+        <!-- 
+            *****
+            *****
+            *****
+            *****
+
+            ----------------
+            ******
+            *    *
+            *    *
+            *    *
+            ******
+
+            ------------------
+
+            *******
+            *******
+            *  *  *
+            *******
+            *******
+            ---------------------------
+            *****
+            *   *
+            * * *
+            *   *
+
+
+         -->
+    </body>
+</html>

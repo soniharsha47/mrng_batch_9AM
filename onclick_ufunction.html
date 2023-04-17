@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="addi"></div>
+        <div id="sub"></div>
+        <div id="multy"></div>
+        <div id="divi"></div>
+        <div id="str"></div>
+
+        <button onclick=on()>click me</button>
+        <button onclick="document.getElementById('data').innerHTML='I am Fine....'">For good</button>
+        <button onclick="document.getElementById('data').innerHTML='I am not good....'">For bad</button>
+        <button onclick="document.getElementById('data').innerHTML=''">For clear</button>
+        <div id="data">Hello How are you....?</div>
+        <script>
+            // let a=parseInt(prompt('Enter the value of A : '));
+            // let b=parseInt(prompt('Enter the value of B : '));
+            // let st=prompt('Enter any string : ');
+            // console.log(typeof(a));
+            function on(){
+                document.getElementById('addi').innerHTML="A + B = "+(a+b); 
+                document.getElementById('sub').innerHTML="A - B = "+(a-b); 
+                document.getElementById('multy').innerHTML="A * B = "+(a*b); 
+                document.getElementById('divi').innerHTML="A / B = "+(a/b); 
+                document.getElementById('str').innerHTML=st.toUpperCase();
+            }
+        </script>
+    </body>
+</html>

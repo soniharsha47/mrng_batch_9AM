@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            .div1{
+                border: 2px solid black;
+                height: 60%;
+                width: 70%;
+                background-color: cyan;
+                position: relative;
+                z-index: 1;
+            }
+            .div2{
+                border: 2px solid red;
+                height: 40%;
+                width: 50%;
+                margin-right: -15%;
+                background-color: blue;
+                position: absolute;
+                top: 40%;
+                right: 0;
+                z-index: 2;
+            }
+            .div3{
+                border: 2px solid purple;
+                height: 30%;
+                width: 50%;
+                background-color: blueviolet;
+                position: absolute;
+                bottom: 0;
+                left: 20%;
+                z-index: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <div class="div2"></div>
+            <div class="div3"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+div.main{
+    display: flex;
+    height: 50%;
+    width: 90%;
+    border: 2px solid black;
+}
+ div.sub1, div.sub2, .sub3, .sub4{
+    width: 10%;
+    height: 10%;
+    margin: 1%;
+    background-color: rebeccapurple;
+    transition: 4s;
+}
+
+.sub1:hover, .sub4:hover{
+    /* transition-timing-function: ease-in; */
+    width: 50%;
+    height: 55%;
+    background-color: black;
+}

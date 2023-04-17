@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+        <div id="result"></div>
+        <button id="addi" onclick="document.getElementById('result').innerHTML='value1+value2'">+</button>
+    <script>
+        let value1=parseInt(prompt('Enter the value First :'));
+        let value2=parseInt(prompt('Enter The Value Second : '));
+        let ope=prompt('Choose one + / - / * / / : ');
+
+        let addi=document.getElementById('addi').value;
+    
+                if(ope=='+'){
+            document.write('Addition is : ',value1+value2);
+        }
+        else if(ope=='-'){
+            document.write('Sub is : ',value1-value2);
+        }
+        else if(ope=='*'){
+            document.write('Multy is : ',value1*value2);
+        }
+        else if(ope=='/'){
+            document.write('Divi is : ',value1/value2);
+        }
+        else{
+            document.write('Invalid operation');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Form CSS</title>
+        <style>
+            body{
+                margin: 0;
+            }
+            div{
+                height: 50%;
+                background-color: purple;
+            }
+            form{
+                background-color: white;
+                font-size: 20px;
+                font-family: cursive;
+                border: 2px solid black;
+                width: 50%;
+                margin-left: 25%;
+                margin-top: -15%;
+                padding: 2%;
+            }
+            input{
+                border: none;
+                border-bottom: 2px solid red;
+                border-radius: 100px;
+                margin: 5%;
+            }
+            input[type=submit]{
+                border: 2px solid green;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <form>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Enter Your Name"><br>
+            <label>Password</label>
+            <input type="password" name="pass" placeholder="Enter Password"><br>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>

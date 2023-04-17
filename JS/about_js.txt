@@ -1,0 +1,72 @@
+js --> Java Script
+---> Scripting Langugae
+---> No 1 Langugae
+--> Large Library
+
+--> React js, Angular js, Vue js, Node js...
+
+--> Installation
+    -> node (Latest LTS Version: 18.13.0)
+
+--> print:
+    --> Ex--> .js
+    --> console.log('Statement');
+
+--> Commands u must know:
+    --> in win 11 --> rig click --> open terminal
+    --> in wind 10 & oth --> shift+rig cli --> power shell window
+
+    -- > ls  --> list (Dictories list)
+    -- > cd dirName --> change your directory(one to other)
+    -- > node FileName --> To run the js file
+
+----> Js with html
+1. External Js 
+    -- <script src='path of file'></script>
+2. Internal Js 
+    -- <script>.....</script>
+3. Inline Js 
+    -- <button onClick='...'></button>
+
+-------------------------------------------------
+> Variables & data Types :
+
+    How to define variables:
+        1. var (old Version)
+        2. Let (Temporary)
+        3. const (Paremenent)
+    
+    Data Types:
+        1. number
+            int(10,1,78), float(1.1), complex(a+bj)
+        2. string
+            ' ', " ", ''' ''', ` `
+        3. list/array
+            [numbers,string]
+        4. Dictionary
+            {key:value,key1:value1,key2:value2}
+        5. boolen
+            true, false
+
+    Indexing & length :
+    > Indexing start with 0
+    > length start with 1
+     in string it will be character vise
+     in list it will be data vise
+     in Dictionary it will be pair vise
+
+     variable rules:
+    > first small character
+    > first latter must be a character
+    > no special characters ex(_)
+    > u can use digits in between
+    > ex: u_name, uName, uName1
+    
+----------------------------------------------------
+Operators :
+    1. Arithmatic 
+    2. Assignment 
+    3. Comparision 
+    4. Logical      && || !
+    5. Conditional  ?
+    6. type         typeof
